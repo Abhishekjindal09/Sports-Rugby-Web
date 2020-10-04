@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Ultimate Frisbee - Home</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/hw1.css" />
 </head>
 <body>
@@ -14,14 +15,49 @@
 			<a href="history.html">History</a>
 			<a href="http://www.usaultimate.org/index.html" target="_blank">USA Ultimate</a>
 		</nav>
+
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Teams</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">History</a>
+          <a class="dropdown-item" href="#">First Game</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Olympics</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
 	</header>
 		<main>
 			<aside class = "left">
 			<a href="https://commons.wikimedia.org/wiki/File%3AUltimate_Frisbee%2C_Jul_2009_-_17.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Ultimate_Frisbee%2C_Jul_2009_-_19.jpg" alt="Creative Common Ultimate Photo" title="By Ed Yourdon [CC BY-SA 2.0 (http://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons"/> </a>
-
 			<a href="https://commons.wikimedia.org/wiki/File%3AUltimate_Frisbee_Colorado_Cup_2005.jpg"><img alt="Ultimate Frisbee Colorado Cup 2005" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Ultimate_Frisbee_Colorado_Cup_2005.jpg/512px-Ultimate_Frisbee_Colorado_Cup_2005.jpg"/></a>
-
-
 			<a href="https://www.flickr.com/photos/paradisecoastie/15409853738/" title="Ultimate Frisbee"><img src="https://farm4.staticflickr.com/3948/15409853738_7dbfbfbac7_k.jpg"  alt="Ultimate Frisbee"></a>
 		</aside>
 			<section class = "right">
@@ -32,5 +68,35 @@
 			<p>Ultimate Frisbee requires a great deal of stamina and dexterity.  Not surprisingly, the <abbr title = "International Olympic Committee">IOC</abbr> officially recognized Ultimate as a sport in 2015.   It can go up against other sports for inclusion in  Olympic games.</p>
 	</section>
 </main>
+
+	<footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+		    <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+		 </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 </body>
-</html>
+</html> 
